@@ -1,0 +1,329 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (min-width: 320px) and (max-width: 575.98px) {
+  .menu ul li a {
+    margin-bottom: 2px;
+  }
+  .nav-link {
+    display: flex;
+    justify-content: end;
+  }
+  /*header end*/
+  /* content start */
+  .content {
+    padding: 95px 30px;
+    text-align: center;
+  }
+  .content h1 {
+    font-size: 24px;
+    line-height: 34px;
+    margin: 10px 0 15px;
+  }
+  .content .c_top {
+    width: 100%;
+  }
+  .content p {
+    font-size: 16px;
+  }
+  .content .c_btn {
+    padding: 10px 9px;
+    margin: 0px 0px 10px;
+  }
+  .c_logo {
+    margin-top: 10px;
+  }
+  .c_logo ul {
+    margin-bottom: 0;
+    /* align-items: center; */
+  }
+  .c_logo ul li {
+    margin-bottom: 10px;
+  }
+
+  .c_logo img {
+    width: 85px;
+    display: flex;
+  }
+  .content .cus_p {
+    top: 20%;
+  }
+  /* content end */
+  /* banner start */
+  .banner {
+    padding: 10px 30px;
+    text-align: center;
+  }
+  .b_text {
+    padding: 48px 0px 0px 0px;
+  }
+  .b_text h1 {
+    font-size: 24px;
+  }
+
+  .b_text p {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0px;
+  }
+  .b_grid p {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.3px;
+  }
+  .b_grid h2 {
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0px;
+  }
+  /* banner end */
+  /* achievement start */
+  .achievement {
+    padding: 10px 30px;
+  }
+  .a_text h1 {
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0px;
+  }
+  .achievement .a_border {
+    border-right: none;
+  }
+  /* achievement end */
+  /* testimonial start */
+  .testimonial {
+    padding: 10px 30px;
+  }
+  .testimonial .t_text h1 {
+    font-size: 20px;
+  }
+  .testimonial .t_cus {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  /* testimonial end */
+  /* question section start */
+  .question {
+    padding: 10px 30px;
+    text-align: center;
+  }
+  .q_text {
+    margin-bottom: 25px;
+  }
+  /* question section end */
+  /* footer start */
+  .footer {
+    padding: 10px 30px;
+  }
+  .footer .f_text {
+    text-align: center;
+  }
+  .footer .f_links {
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .footer .f_links h4 {
+    margin: 0;
+  }
+  .footer .f_copyright {
+  }
+  /* footer end */
+  /* bottom fotter start */
+  .b_footer {
+    padding: 10px 30px;
+    text-align: center;
+  }
+  /* bottom footer ned */
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /*header start*/
+  .menu ul li a {
+    margin-bottom: 2px;
+  }
+  /*header end*/
+  /* content start */
+  .content {
+    padding: 100px 30px 0;
+    text-align: center;
+  }
+  .content .cus_p {
+    top: 27%;
+  }
+  .content h1 {
+    font-size: 42px;
+    line-height: 52px;
+    margin: 21px 0 0;
+  }
+  /* content end */
+  /* banner start */
+  .banner {
+    padding: 65px 0 60px;
+    text-align: center;
+  }
+  .b_text {
+    padding: 0;
+  }
+  .b_grid {
+    min-height: 240px;
+  }
+
+  .content .c_btn {
+    margin: 0px 0px 10px;
+  }
+
+  /* banner end */
+  /* achievment start */
+  .achievement {
+    padding: 50px 0 60px;
+  }
+  .achievement .a_border {
+    border-right: none;
+  }
+  /* achievment end */
+  /* testimonial start */
+  .testimonial {
+    padding: 50px 0 60px;
+  }
+  /* testimonial end */
+  /* question section start */
+  .question {
+    padding: 50px 0px 60px;
+    text-align: center;
+  }
+  .q_text {
+    margin-bottom: 25px;
+  }
+  /* question section end */
+  /* footer start */
+  .footer {
+    padding: 50px 0 60px;
+  }
+  .footer .f_text {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .footer .f_links {
+    justify-content: center;
+    text-align: center;
+  }
+  .f_copyright {
+    margin-top: 25px;
+  }
+  .f_copyright p {
+    padding: 0;
+  }
+  /* footer end */
+  /* bottom footer start */
+  .b_footer {
+    padding: 40px 0 40px;
+  }
+  /* bottom footer end */
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /*header start*/
+  .menu ul li a {
+    margin-bottom: 10px;
+  }
+  /*header end*/
+  /* content start */
+  .content {
+    padding: 90px 0 0px;
+  }
+  .content h1 {
+    font-size: 42px;
+    line-height: 52px;
+  }
+  .content .c_btn {
+    margin: 20px 0 44px;
+  }
+  .content p {
+    font-size: 22px;
+    letter-spacing: 0px;
+  }
+  /* content end */
+
+  /* banner start */
+  .banner {
+    padding: 80px 0 90px;
+  }
+
+  .b_text {
+    padding: 30px 53px 30px 0px;
+  }
+
+  .b_grid {
+    min-height: 190px;
+  }
+  .img_1 img {
+    height: 575px;
+  }
+  .img_2 img {
+    height: 475px;
+  }
+  /* banner end */
+  /*achievment start  */
+  .achievement {
+    padding: 80px 0 90px;
+  }
+  /* achievment end */
+  /* testimonial start */
+  .testimonial {
+    padding: 80px 0 90px;
+  }
+  .testimonial .t_text {
+    margin-bottom: 25px;
+  }
+  /* testimonial end */
+  /* question start */
+  .question {
+    padding: 80px 0 90px;
+  }
+
+  /* question end */
+  /* footer start */
+  .footer {
+    padding: 80px 0 90px;
+  }
+  .f_copyright p {
+    padding-bottom: 0;
+  }
+  /* footer end */
+  /* footer bottom start */
+  .b_footer {
+    padding: 40px 0 50px;
+  }
+  /* footer bottom end */
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .img_1 img {
+    height: 650px;
+  }
+  .img_2 img {
+    height: 550px;
+  }
+  .q_text {
+    padding-right: 50px;
+  }
+  element.style {
+  }
+  .b_grid {
+    min-height: 264px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .b_grid {
+    min-height: 240px;
+  }
+}
+
+/* Extra extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+}

@@ -1,0 +1,336 @@
+/*common start*/
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    color:  #094B72;
+}
+/*common start*/
+/*header start*/
+header{
+    background-color: #f2f7ff;
+    padding: 10px 0;
+}
+.c_nav{}
+.logo{
+    width: 144px;
+}
+.menu ul li a{
+font-family: Poppins;
+font-size: 12px;
+font-weight: 400;
+color: #2D2F30 !important;
+line-height: 23px; 
+letter-spacing: 1.5px;
+text-transform: uppercase;
+}
+.menu ul li a:hover{
+color: red !important;
+}
+
+.btn_common{
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 1.28px;
+    background: #094B72;
+    text-transform: capitalize;
+    color: white;
+    padding: 10px 10px;
+}
+.btn_common:hover{
+    background-color: #fd511a !important;
+    color: white;
+}
+/*header end*/ 
+/* content start */
+/* content end */
+.content{
+    padding: 95px 0 0px;
+    z-index: 30;
+}
+.content .c_top{
+    width: 434px;
+height: 45px;
+border-radius: 25px;
+background: #E7F6FF;
+display: flex;
+align-items: center;
+
+}
+.content .c_top button{
+    padding: 3px 21px;
+    border-radius: 25px;
+    background: #094B72;
+    margin-left: 6px;
+    margin-right: 10px;
+  
+}
+.content h1{
+    text-transform: capitalize;
+font-family: Playfair Display;
+font-size: 60px;
+font-weight: 700;
+line-height: 70px;
+margin: 21px 0 46px;
+}
+.content p{
+font-family: Plus Jakarta Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 158%; 
+letter-spacing: 0.5px;
+position: relative;
+}
+.content .c_btn{
+    padding: 29px 36px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 8px;
+    margin: 42px 0 115px;
+
+}
+.c_logo{
+    margin-top: 32px;
+}
+.c_logo ul{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 40px;
+}
+.c_logo ul li a{
+    margin-right: 30px;
+}
+.c_logo img{
+    width: 112px;
+    height: auto;
+}
+.content .c_name{
+border-radius: 10px;
+background: #FFF;
+width: 85%;
+text-align: center;
+}
+.content .cus_p{
+    top: 95px;
+    z-index: 15;
+}
+/* banner start */
+.banner{
+    background-color: #F2F7FF;
+    padding: 90px 0 100px;
+}
+.b_text{
+    padding: 48px 53px 185px 0px;
+}
+.b_text h1{}
+.b_text p{
+color:#8B8C8C);
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px; 
+letter-spacing: 0.5px;
+}
+.b_grid{
+border-radius: 8px;
+background: #FCFCFC;
+padding: 10px 9px;
+margin-bottom: 25px;
+box-shadow: 0px 18px 58px 16px rgba(0, 0, 0, 0.06);
+min-height: 240px;
+
+}
+.b_grid img{
+    width: 37px;
+    height: 37px;
+}
+.b_grid h2{
+margin: 18px 0 10px 0;
+color:#363940;
+font-family: Playfair Display;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: 22px; 
+letter-spacing: 0.5px;
+}
+.b_grid p{
+color:#8B8C8C;
+font-family: Plus Jakarta Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+letter-spacing: 0.3px;
+}
+
+/* banner end */
+
+/* achievement start */
+.achievement{
+    padding: 90px 0 100px;
+    background: #094B72;
+}
+.a_text{}
+.a_text h1{
+color: #FFF;
+text-align: center;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: 64px;
+letter-spacing: 0.24px;
+text-transform: capitalize;
+}
+.a_text p{
+color:#FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0.5px;
+}
+.a_number{}
+.a_number h1{}
+.a_number p{}
+.achievement .a_border{
+    border-right: 2px solid white;
+    height: 124px;
+}
+
+/* achievement end */
+
+/* testimonial start */
+.testimonial{
+    background: #F2F7FF;
+    padding: 90px 0 100px;
+}
+.t_text{
+
+}
+.t_number{
+    padding: 15px 17px;
+    min-height: 210px;
+    margin: 0px 10px 30px 10px;
+    border-radius: 10px;
+    background: white;
+    filter: drop-shadow(0px 10px 20px rgba(41, 41, 42, 0.07));
+}
+.t_number h3{
+    color: #151617;
+text-align: center;
+font-feature-settings: 'salt' on, 'liga' off;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; 
+}
+.t_number p{
+color:#4F4F4F;
+text-align: center;
+font-feature-settings: 'salt' on, 'liga' off;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
+.testimonial .t_square i{
+    /* position: relative; */
+    /* width: 50px;
+    height: 50px;
+    background: white; */
+    rotate: 90deg;
+    color: white;
+    font-size: 70px;
+    /* top: 13px;
+    left: 11px; */
+    /* /* border-radius: 30px 0px 0 0; */
+} 
+.t_logo{
+    float: right;
+}
+.t_logo_t{
+    float: left;
+}
+/* testimonial end */
+
+
+/* question start */
+.question{
+    padding: 90px 0 100px;
+}
+/* question end */
+
+/* footer section start */
+.footer{
+    width: 100%;
+    background: #094B72;
+    padding: 100px 0 110px;
+    }
+    .f_content{
+    display: flex;
+    margin-bottom: 77px;
+    padding-top: 55px;
+    }
+    .f_text{
+    }
+    .f_text p{
+        color: #FFF;
+        line-height: 30px;
+    }
+    .f_links{
+    }
+    .f_links ul{
+    
+    }
+    .f_links ul li{
+        list-style-type: none;
+        text-transform: capitalize;
+    }
+    .f_links ul li h4{
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 30px; 
+    }
+    .f_links ul li a{
+    color: #cdcdcd;
+    font-size: 18px;
+    line-height: 30px; 
+    text-decoration: none;
+    }
+    .f_copyright{
+    text-align: center;
+    }
+    .f_copyright p{
+    color: #CDCDCD;
+    line-height: 30px;
+    }
+    /* footer section end */
+/* bottom footer start */
+.b_footer{
+    background: #004D7B;
+    padding: 50px 0 60px;
+}
+.b_footer p{
+    color:  #D9DBE1;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; 
+}
+.f_icon{}
+.f_icon ul{}
+.f_icon ul li{}
+.f_icon ul li i{
+    color: #FCFCFC;
+}
+/* bottom footer end */
